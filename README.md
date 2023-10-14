@@ -48,14 +48,21 @@ KY-037 Sound Detect Sensor
 
 連上Wi-Fi後運行arduino.c以將ESP32-CAM板子燒到Wi-Fi內
 
-2.安裝YOLOv5
+2.主程式、深度學習
 
+way 1:
+直接使用./src/Server_Main program
+
+way2:
+安裝YOLOv5
 ```
 git clone https://github.com/ultralytics/yolov5
 ```
+將Server_Main program裡的baby.yaml放入data資料夾
+
+其餘直接放進yolov5資料夾即可
 
 3.環境設置
-
 ```
 pip install -r requirements.txt
 ```
@@ -63,15 +70,13 @@ pip install -r requirements.txt
 
 4.運行
 
-將Server_Main program裡的baby.yaml放入data資料夾
-
-其餘直接放進yolov5資料夾即可
-
 在./src/APP_Baby monitor/Baby monitor/app/release裡安裝apk檔
 
 運行main.py
 
 ---
+
+### 致謝
 
 本研究感謝國科會大專生專題研究計畫(112-2813-C-259-013-E)與國科會計畫(111-2221-E-259-011-MY2)經費支持，以及國研院國網中心提供計算與儲存資源。
 
