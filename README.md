@@ -58,7 +58,7 @@ way 2:
 ```
 git clone https://github.com/ultralytics/yolov5
 ```
-將Server_Main program裡的baby.yaml放入data資料夾
+將Server_2裡的baby.yaml放入./yolov5/data資料夾
 
 其餘直接放進yolov5資料夾即可
 
