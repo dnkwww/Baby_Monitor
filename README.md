@@ -53,7 +53,7 @@ KY-037 Sound Detect Sensor
 way 1:
 直接使用./src/Server_Main program
 
-way2:
+way 2:
 安裝YOLOv5
 ```
 git clone https://github.com/ultralytics/yolov5
